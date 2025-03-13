@@ -1,0 +1,101 @@
+body {
+/*    background-color: lightblue;*/
+    color: #333;
+    font-size: 16pt;
+    font-family: "Segoe UI", Arial, sans-serif;
+    max-width: 960px;
+/*	width: 960px;*/
+    margin: 0 auto;
+    box-shadow: 0 0 1em darkgray;
+    padding: 0 0.8em 1em;
+}
+
+h1, h3 {
+    color: navy;
+    margin-left: 20px;
+    font-family: "Times New Roman",serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    margin-bottom: 0.5em;
+}
+
+h1{
+ border-bottom: solid 1px #333;
+}
+
+#panoramic {
+	height: 400px;
+	max-width: 960px;
+
+}
+
+figure {
+	display: inline-block;
+	width: 200px;
+	margin: 0.2em;
+	overflow: hidden;
+}
+
+figure:hover {
+	box-shadow: 0 0 15px darkgray;
+}
+
+.gallery-item img{
+	height: 200px;
+	width: 200px;
+}
+
+.gallery-item{
+	color: #333;
+	text-decoration: none;
+}
+.gallery-item:hover{
+	color: blue;
+	background-color: transparent;
+	text-decoration: none;
+}
+.gallery-item:visited{
+	color: red;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+figcaption{
+	text-align: center;
+	margin-bottom: 0.5em;
+}
+
+footer, header {
+	text-align: center;
+	border-top: solid 1px #333;
+	padding-top: 0.5em;
+}
+
+footer li {
+	display: inline-block;
+}
+
+footer li:after {
+	content: "·";
+	margin: 0 1em;
+}
+footer li:last-of-type:after {
+	display: none;
+}
+
+#logo {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+a {
+	text-decoration: none;
+}
+
+.gallery-item {
+	color: #333;
+	text-decoration: none;
+}
+
+
