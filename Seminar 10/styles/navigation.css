@@ -1,0 +1,48 @@
+nav > ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav > ul > li {
+	float: left;
+	margin-left: 1em;
+/*	margin-right: 10px;*/
+}
+
+nav a {
+	color: #333;
+	display: inline-block;
+	font-size: 0.8em;
+	padding: 0.5em 1em;
+}
+
+nav li.active > a, nav li:hover, nav a:hover {
+	background-color: lightblue;
+}
+
+/* _____________________________________________ */
+
+.dropdown-content a {
+	display: block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	min-width: 180px;
+	background-color: #fff;
+	box-shadow: 0 0 0.5em lightgray;
+	margin: 0;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown-link:after {
+	content: "\25bc";
+	margin-left: 0.3em;
+}
+
+
