@@ -1,0 +1,128 @@
+/* * - its strix */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+nav {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	display: flex;
+	flex-direction: row;
+	background-color: #222;
+	justify-content: center;
+	z-index: 1;
+}
+
+nav a {
+	padding: 1rem 3rem;
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+}
+
+nav a:hover {
+	text-decoration: underline;
+	background-color: #a98;
+}
+
+section, header {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+	color: white;
+	opacity: 0;
+  	animation: ani 2.5s forwards;
+}
+@keyframes ani {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+section h1 {
+	font-size: 3rem;
+}
+
+section p {
+	font-size: 1rem;
+}
+
+
+header {
+	background: url('../images/back1.jpg');
+	background-size: cover;
+	opacity: 0.8;
+}
+
+#about {
+	background: url('../images/back2.jpg');
+}
+
+#news {
+	background: url('../images/back3.jpg') no-repeat center;
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	flex-wrap: wrap;
+}
+
+#portfolio {
+	background: url('../images/back4.jpg');
+}
+
+#contacts {
+/*	background: url('../images/tile.jpg');*/
+	background-color: #222;
+}
+
+.wrapper {
+	width: 100%;
+	padding: 30px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: left;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+aside {
+	flex: 50%;
+	background: #111;
+	padding: 20px;
+}
+
+main {
+	flex: 30%;
+	background-color: #222;
+	padding: 20px;
+	
+}
+article {
+	flex: 20%;
+	background-color: #333;
+	padding: 1.5em;
+}
+
+form{
+	box-sizing: border-box;
+	padding: 20px;
+	background-color: #ebc634;
+	border-radius: 5px;
+	margin: 10px;
+	height: 450px;
+}
+
+form input, label, textarea, button {
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px;
+}
