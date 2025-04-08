@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbarCon {
+    flex: 1;
+}
+
+#logoH1 {
+    font-size: 35px;
+}
+
+.navbarCon {
+    display: flex;
+}
+
+.navButtons {
+    flex: 1;
+    margin: auto;
+    text-align: center;
+}
+
+#contactButton {
+    background-color: #ff4d29;
+    padding: 10px;
+    border-radius: 5px;
+    a {
+        color: aliceblue;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#heroPage {
+    background-color: aliceblue;
+    height: 65vh;
+    padding-top: 25vh;
+    padding-left: 16vw;
+    background-image: url(../images/bg_banner1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.heroCon {
+    color: aliceblue;
+    background-color: rgba(45, 45, 45, 0.401);
+    width: 600px;
+    padding: 30px;
+    h1 {
+        font-size: 50px;
+    }
+}
+
+#heroButton1 {
+    background-color: #ff4d29;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 0px;
+    border-radius: 5px;
+    color: aliceblue;
+    margin-right: 20px;
+}
+
+#heroButton2 {
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+    background-color: rgba(240, 248, 255, 0);
+    border: 1px solid white;
+    color: aliceblue;
+}
+
+.aboutMainCon {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 100px;
+    margin-bottom: 120px;
+    display: flex;
+}
+
+.aboutCon {
+    flex: 1;
+}
+
+.miniCon {
+    display: flex;
+    margin-top: 45px;
+}
+
+.aboutLogoCon {
+    flex: 1;
+    img {
+        width: 80px;
+    }
+}
+
+.aboutTextCon {
+    flex: 7;
+    padding-left: 20px;
+}
