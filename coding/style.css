@@ -179,3 +179,163 @@ nav .btn {
     flex: 7;
     padding-left: 20px;
 }
+
+.footer {
+    background: #051c3b;
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+}
+
+.footer-top {
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding: 20px;
+    background-color: #0d2d59;
+}
+
+.footer-contact {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.footer-contact div {
+    margin: 10px;
+    min-width: 200px;
+}
+
+.footer-contact img {
+    width: 20px;
+    margin-bottom: 5px;
+}
+
+.footer-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.footer-logo {
+    flex: 2;
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+.footer-links {
+    flex: 1;
+    min-width: 150px;
+    margin-bottom: 20px;
+}
+
+.footer-links h4 {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    color: #ccc;
+    transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+    color: white;
+}
+
+.footer-newsletter {
+    flex: 2;
+    min-width: 250px;
+}
+
+.footer-newsletter h4 {
+    margin-bottom: 15px;
+}
+
+.newsletter-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.newsletter-form input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+}
+
+.newsletter-form button {
+    background: #ff4a1c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.newsletter-form button:hover {
+    background: #e14118;
+}
+
+.footer-socials a {
+    margin-right: 10px;
+}
+
+.footer-socials img {
+    width: 30px;
+    height: 30px;
+    background: #0d2d59;
+    border-radius: 50%;
+    padding: 5px;
+    transition: transform 0.2s ease;
+}
+
+.footer-socials img:hover {
+    transform: scale(1.1);
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #04162c;
+}
+
+.footer-bottom-links a {
+    margin-left: 15px;
+    color: #ff4a1c;
+    font-size: 13px;
+}
+
+.scroll-top-btn {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background: #ff4a1c;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 12px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 10;
+}
